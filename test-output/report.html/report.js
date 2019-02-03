@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2590766390,
+  "duration": 2593152136,
   "status": "passed"
 });
 formatter.scenario({
@@ -38,7 +38,7 @@ formatter.match({
   "location": "MySteps.openSite(String)"
 });
 formatter.result({
-  "duration": 2226737379,
+  "duration": 1998361641,
   "status": "passed"
 });
 formatter.match({
@@ -51,11 +51,11 @@ formatter.match({
   "location": "MySteps.verifyTitle(String)"
 });
 formatter.result({
-  "duration": 7286019,
+  "duration": 7237384,
   "status": "passed"
 });
 formatter.after({
-  "duration": 74767,
+  "duration": 100203,
   "status": "passed"
 });
 });
