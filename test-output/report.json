@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2590766390,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "[TA-001] - Open google test",
+        "description": "",
+        "id": "my-demo-feature;[ta-001]---open-google-test",
+        "after": [
+          {
+            "result": {
+              "duration": 74767,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2226737379,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open website https://www.google.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com",
+                  "offset": 15
+                }
+              ],
+              "location": "MySteps.openSite(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7286019,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see the title Google",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google",
+                  "offset": 16
+                }
+              ],
+              "location": "MySteps.verifyTitle(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "My demo feature",
+    "description": "",
+    "id": "my-demo-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/demo.feature"
+  }
+]
